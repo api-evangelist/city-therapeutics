@@ -1,17 +1,38 @@
 aid: city-therapeutics
 name: City Therapeutics
-description: 'City Therapeutics is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'City Therapeutics, Inc. is a privately held, clinical-stage biotechnology
+  company headquartered at 399 Binney Street in Kendall Square, Cambridge, Massachusetts,
+  founded in 2024 by pioneers of RNA interference including John Maraganore, Phillip
+  Zamore, Kotaro Nakanishi, Yukihide Tomari and Mark Keating. The company engineers
+  next-generation RNAi trigger molecules — including its proprietary cleavage-inducing
+  tiny (city) RNAs — and pairs them with precision targeting ligands designed to deliver
+  siRNAs beyond the liver into ocular, CNS and other extrahepatic tissues. Its pipeline
+  includes CITY-FXI, a Factor XI-targeting candidate for thromboembolic disease, and
+  CITY-RBP4 for Stargardt disease and geographic atrophy, alongside undisclosed hepatic,
+  ocular and CNS programs. City Therapeutics raised a $135M Series A in October 2024
+  and a $99.5M Series B in June 2026, and holds research collaborations with Biogen
+  and Bausch + Lomb. City Therapeutics publishes no public developer program, API,
+  or machine-readable interface; it is catalogued here as a company profile only.'
 url: https://raw.githubusercontent.com/api-evangelist/city-therapeutics/refs/heads/main/apis.yml
+image: https://static1.squarespace.com/static/65394e1483a04e2c2e68081e/t/690d09920cff71704ef4c257/1762462098341/City-Website-Logo-110625.png?format=1500w
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-source-url: https://forgeglobal.com/city-therapeutics_stock/
+x-tier: profile
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Life Sciences
+- Therapeutics
+- RNAi
+- Drug Discovery
+- Clinical Stage
+- Genetic Medicine
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +40,38 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/city-therapeutics-domain-security.yml
+- type: LLMsTxt
+  url: llms/city-therapeutics-llms.txt
 - type: Website
-  url: https://forgeglobal.com/city-therapeutics_stock/
+  url: https://www.citytx.com/
+- type: About
+  url: https://www.citytx.com/home#Approach
+- type: Pipelines
+  url: https://www.citytx.com/home#pipeline
+- type: Team
+  url: https://www.citytx.com/home#team
+- type: News
+  url: https://www.citytx.com/news
+- type: Blog
+  url: https://www.citytx.com/news
+- type: BlogRSS
+  url: https://www.citytx.com/news?format=rss
+- type: Careers
+  url: https://boards.greenhouse.io/citytherapeutics
+- type: Contact
+  url: https://www.citytx.com/home#contact
+- type: TermsOfService
+  url: https://www.citytx.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.citytx.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/city-therapeutics/
+- type: X
+  url: https://x.com/CityTx_
+x-enrichment:
+  date: '2026-08-02'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
