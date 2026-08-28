@@ -14,6 +14,17 @@ description: 'City Therapeutics, Inc. is a privately held, clinical-stage biotec
   and Bausch + Lomb. City Therapeutics publishes no public developer program, API,
   or machine-readable interface; it is catalogued here as a company profile only.'
 url: https://raw.githubusercontent.com/api-evangelist/city-therapeutics/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://static1.squarespace.com/static/65394e1483a04e2c2e68081e/t/690d09920cff71704ef4c257/1762462098341/City-Website-Logo-110625.png?format=1500w
 x-type: company
 x-source: harvest:secondary-market
