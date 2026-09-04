@@ -25,6 +25,18 @@ deliveryModel:
   - pricing
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://static1.squarespace.com/static/65394e1483a04e2c2e68081e/t/690d09920cff71704ef4c257/1762462098341/City-Website-Logo-110625.png?format=1500w
 x-type: company
 x-source: harvest:secondary-market
