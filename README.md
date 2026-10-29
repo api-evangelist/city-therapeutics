@@ -64,11 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-City Therapeutics, Inc. is a privately held, clinical-stage biotechnology company in Kendall Square, Cambridge, Massachusetts, founded in 2024 by pioneers of RNA interference. It engineers next-generation RNAi trigger molecules — including proprietary cleavage-inducing tiny ("city") RNAs — paired with precision targeting ligands that deliver siRNAs beyond the liver into ocular, CNS and other extrahepatic tissues. Lead programs are CITY-FXI (Factor XI, thromboembolic disease) and CITY-RBP4 (Stargardt disease and geographic atrophy).
+City Therapeutics, Inc. is a privately held, clinical-stage biotechnology company headquartered at 399 Binney Street in Kendall Square, Cambridge, Massachusetts, founded in 2024 by pioneers of RNA interference including John Maraganore, Phillip Zamore, Kotaro Nakanishi, Yukihide Tomari and Mark Keating. The company engineers next-generation RNAi trigger molecules — including its proprietary cleavage-inducing tiny (city) RNAs — and pairs them with precision targeting ligands designed to deliver siRNAs beyond the liver into ocular, CNS and other extrahepatic tissues. Its pipeline includes CITY-FXI, a Factor XI-targeting candidate for thromboembolic disease, and CITY-RBP4 for Stargardt disease and geographic atrophy, alongside undisclosed hepatic, ocular and CNS programs. City Therapeutics raised a $135M Series A in October 2024 and a $99.5M Series B in June 2026, and holds research collaborations with Biogen and Bausch + Lomb. City Therapeutics publishes no public developer program, API, or machine-readable interface; it is catalogued here as a company profile only.
 
-**No public API surface.** Probed 2026-08-02: no OpenAPI/Swagger, GraphQL, AsyncAPI, MCP, or A2A agent card on `citytx.com` or the apex; no `api.`, `developer.`, `docs.` or `trust.` subdomain resolves; no `/llms.txt` and no `/.well-known/` documents. This repo is a company profile, not an API profile.
+**Areas:** Company · Biotechnology · Pharmaceuticals · Life Sciences · Therapeutics · RNAi · Drug Discovery · Clinical Stage · Genetic Medicine
 
-- Website — https://www.citytx.com/
-- News — https://www.citytx.com/news
-- Careers — https://boards.greenhouse.io/citytherapeutics
-- Secondary-market listing (harvest source) — https://forgeglobal.com/city-therapeutics_stock/
+## City Therapeutics on APIs.io
+
+Everything profiled for City Therapeutics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/city-therapeutics/](https://apis.io/providers/city-therapeutics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [City Therapeutics Domain Security](https://apis.io/security/city-therapeutics/city-therapeutics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.citytx.com/)
+- [Blog](https://www.citytx.com/news)
+- [Terms of service](https://www.citytx.com/terms-of-use)
+- [Privacy policy](https://www.citytx.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 10.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/city-therapeutics/](https://apis.io/providers/city-therapeutics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for City Therapeutics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/city-therapeutics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
